@@ -3,7 +3,7 @@ import Fonts from '../components/fonts';
 import Layout from '../components/layouts/main';
 import theme from '../lib/theme';
 import dynamic from 'next/dynamic';
-import Head from 'next/head';
+//import Head from 'next/head';
 
 const Website = ({ Component, pageProps, router }) => {
   return (

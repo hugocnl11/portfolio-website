@@ -3,14 +3,12 @@ import {
     Badge,
     Link,
     List,
-    ListItem,
-    AspectRatio
+    ListItem
   } from '@chakra-ui/react'
   import { ExternalLinkIcon } from '@chakra-ui/icons'
   import { Title, WorkImage, Meta } from '../../components/work'
   import P from '../../components/paragraph'
   import Layout from '../../components/layouts/article'
-  import WorkVideo from '../../components/workVideo';
   const Work = () => (
     <Layout title="Instalfer Web">
       <Container>
@@ -18,7 +16,7 @@ import {
         Instalfer Web <Badge>2021</Badge>
         </Title>
         <P>
-        Website for my father's business, who is a professional in the electrical sector with over 35 years of experience in air conditioning installations, electrical installations, repairs, maintenance, automatic doors, and solar panels
+        Website for my father&aposs business, who is a professional in the electrical sector with over 35 years of experience in air conditioning installations, electrical installations, repairs, maintenance, automatic doors, and solar panels
         </P>
         <List ml={4} my={4}>
           <ListItem>
@@ -35,14 +33,8 @@ import {
             <Meta>Stack</Meta>
             <span>React, Next.js</span>
           </ListItem>
-         
         </List>
         <WorkImage src="/images/myWorks/instalfer_eyecatch0.jpg" alt="Instalfer Web" />
-       
-        
-        
-        
-        
       </Container>
     </Layout>
   )

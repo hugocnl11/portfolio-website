@@ -8,7 +8,7 @@ import thumbMyWardrobe from '../public/images/myWorks/myWardrobe_eyecatch4.png'
 import thumbDownToHell from '../public/images/myWorks/PortadaDTH.png'
 import thumbInstalferWeb from '../public/images/myWorks/instalfer_eyecatch1.png'
 import thumbChargePot from '../public/images/myWorks/ChargePot0.jpg'
-import thumbDefault from '../public/images/myWorks/Fondo_Negro_9.png'
+//import thumbDefault from '../public/images/myWorks/Fondo_Negro_9.png'
 
 const Works = () => (
 <Layout title="Works">

@@ -50,7 +50,7 @@ import { Meta, Title, WorkImage } from '../../components/work'
         </SimpleGrid>
         <SimpleGrid columns={2} gap={2} my={2}>
             <WorkImage src="/images/myWorks/videos/showingMovements.gif" alt="Down To Hell" />
-            <h4>As you can see here, I demonstrate how I assembled the character's animation tree and showcase how the movement looks.</h4>
+            <h4>As you can see here, I demonstrate how I assembled the character&aposs animation tree and showcase how the movement looks.</h4>
         </SimpleGrid>
         <Badge  my={4}>Gameplay (Alpha Version)</Badge>
  

@@ -1,10 +1,10 @@
 // Importa los componentes necesarios de Chakra UI y React
 import { Box, Container } from '@chakra-ui/react';
-import Head from 'next/head';
+//import Head from 'next/head';
 
 
 // Define tu componente WorkVideo
-const WorkVideo = ({ src, alt }) => {
+const WorkVideo = ({ src }) => {
   return (
     <Box as="main" pb={5}>
       <Container maxW="container.md" pt={1}>

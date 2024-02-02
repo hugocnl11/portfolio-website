@@ -1,10 +1,10 @@
 import { ChevronRightIcon } from '@chakra-ui/icons'
-import { Box, Button, Container, Heading, Image, Link, List, ListItem } from '@chakra-ui/react'
+import { Box, Button, Container, Heading, Image, Link} from '@chakra-ui/react'
 import NextLink from 'next/link'
 import { BioSection, BioYear } from '../components/bio'
 import Paragraph from '../components/paragraph'
 import Section from '../components/section'
-import { Meta } from '../components/work' 
+
 
 const Page = () => {
     return (

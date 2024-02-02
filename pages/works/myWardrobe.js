@@ -4,14 +4,13 @@ import {
     Link,
     List,
     SimpleGrid,
-    ListItem,
-    AspectRatio
+    ListItem
   } from '@chakra-ui/react'
   import { ExternalLinkIcon } from '@chakra-ui/icons'
   import { Title, WorkImage, Meta } from '../../components/work'
   import P from '../../components/paragraph'
   import Layout from '../../components/layouts/article'
-  import WorkVideo from '../../components/workVideo';
+  //import WorkVideo from '../../components/workVideo';
   const Work = () => (
     <Layout title="MyWardrobe">
       <Container>

@@ -1,4 +1,4 @@
-const HexagonsWithBorderIcon = props => {
+const HexagonsWithBorderIcon = _props => {
     return (
         <svg 
             width={25}

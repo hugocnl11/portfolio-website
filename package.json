@@ -4,7 +4,7 @@
   "description": "Hugog's website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
-    "bluild": "next build",
+    "bluild": "webpack --config webpack.config.js",
     "prettier": "prettier -write .",
     "lint": "next lint"
   },
