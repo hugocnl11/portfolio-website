@@ -48,11 +48,12 @@ const Works = () => (
             App to save the garments in your wardrobe, and the ones you desire for creating outfit combinations
           </WorkGridItem>
       </Section>
+      {/*
       <Section delay={0.3}>
           <WorkGridItem id="chargePot" thumbnail={thumbChargePot} title="ChargePot">
             ChargePot plataform
           </WorkGridItem>
-      </Section>
+      </Section> */}
 
       <Section delay={0.5}>
         <Divider my={6} />
