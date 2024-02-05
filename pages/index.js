@@ -1,10 +1,9 @@
 import { ChevronRightIcon } from '@chakra-ui/icons'
-import { Box, Button, Container, Heading, Image, Link} from '@chakra-ui/react'
+import { Box, Button, Container, Heading, Image, Link } from '@chakra-ui/react'
 import NextLink from 'next/link'
 import { BioSection, BioYear } from '../components/bio'
 import Paragraph from '../components/paragraph'
 import Section from '../components/section'
-
 
 const Page = () => {
     return (
@@ -92,7 +91,7 @@ const Page = () => {
             </BioSection>
             <BioSection>
                 <BioYear>2023</BioYear>
-                I graduated as senior technician in multiplatform application development.
+                I graduated as advanced specific vocational training in multiplatform application development.
             </BioSection>
             <BioSection>
                 <BioYear>2023</BioYear>

@@ -17,6 +17,8 @@ import NextLink from 'next/link'
 import { forwardRef } from 'react'
 import Logo from './logo'
 import ThemeToggleButton from './theme-toggle-button'
+import { IoLogoGithub } from 'react-icons/io'
+
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
@@ -97,6 +99,7 @@ const Navbar = props => {
             style={{ gap: 4 }}
             pl={2}
           >
+            <IoLogoGithub />
             Source
           </LinkItem>
         </Stack>

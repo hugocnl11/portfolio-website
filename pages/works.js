@@ -3,24 +3,37 @@ import { WorkGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 
-import thumbPokemon from '../public/images/myWorks/pokemon_eyecatch.png'
-import thumbMyWardrobe from '../public/images/myWorks/myWardrobe_eyecatch4.png'
 import thumbDownToHell from '../public/images/myWorks/PortadaDTH.png'
 import thumbInstalferWeb from '../public/images/myWorks/instalfer_eyecatch1.png'
+import thumbMyWardrobe from '../public/images/myWorks/myWardrobe_eyecatch4.png'
+import thumbPokemon from '../public/images/myWorks/pokemon_eyecatch.png'
 //import thumbChargePot from '../public/images/myWorks/ChargePot0.jpg'
 //import thumbDefault from '../public/images/myWorks/Fondo_Negro_9.png'
+//import thumbCrud from '../public/images/myWorks/backEnd/crud.png'
+import thumbRestApi from '../public/images/myWorks/backEnd/apiRest.png'
 
 const Works = () => (
 <Layout title="Works">
     <Container>
-      <Heading as="h3" fontSize={20} mb={4}>
+    <Heading as="h3" fontSize={20} mb={4}>
+        Back-End Projects
+    </Heading>
+    <SimpleGrid delay={0.2} columns={[1, 1, 1]} gap={6}>
+        <Section>
+          <WorkGridItem id="apiRest" title="RESTful API" thumbnail={thumbRestApi}>
+          This project will focus on developing a RESTful API using PostgreSQL as the database.
+          </WorkGridItem>
+        </Section>
+        
+      </SimpleGrid>
+      <Heading as="h3" delay={0.2} fontSize={20} mb={4}>
         VideoGames
       </Heading>
 
-      <SimpleGrid columns={[1, 1, 1]} gap={6}>
+      <SimpleGrid delay={0.2} columns={[1, 1, 1]} gap={6}>
         <Section>
           <WorkGridItem id="downToHell" title="Down To Hell" thumbnail={thumbDownToHell}>
-           Metroidvania-style game developed in Unity as the final project for a higher-level vocational training in multimedia development.
+          Metroidvania-style game developed in Unity as the final project for a higher-level vocational training in multimedia development.
           </WorkGridItem>
         </Section>
         <Section >
