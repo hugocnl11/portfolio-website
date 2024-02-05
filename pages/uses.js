@@ -1,5 +1,5 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
-import { WorkGridItem } from '../components/grid-item'
+import { UseGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import thumbKiyo from '../public/images/uses/kiyo.jpg'
@@ -18,34 +18,34 @@ const Uses = () => (
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
             <Section>
-                <WorkGridItem id="kiyo" title="Razer Kiyo" thumbnail={thumbKiyo}>
+                <UseGridItem id="kiyo" title="Razer Kiyo" thumbnail={thumbKiyo}>
                 Webcam
 
-                </WorkGridItem>
+                </UseGridItem>
                 
             </Section>
             <Section>
-            <WorkGridItem id="huntsman" title="Razer Huntsman V2" thumbnail={thumbHuntsman}>
+            <UseGridItem id="huntsman" title="Razer Huntsman V2" thumbnail={thumbHuntsman}>
                 Keyboard
 
-                </WorkGridItem>
+                </UseGridItem>
             </Section>
             <Section>
-                <WorkGridItem id="viper" title="Razer Viper" thumbnail={thumbViper}>
+                <UseGridItem id="viper" title="Razer Viper" thumbnail={thumbViper}>
                 Webcam
 
-                </WorkGridItem>
+                </UseGridItem>
                 
             </Section>
             <Section>
-                <WorkGridItem id="blackshark" title="Razer Blackshark V2" thumbnail={thumbBlackshark}>
+                <UseGridItem id="blackshark" title="Razer Blackshark V2" thumbnail={thumbBlackshark}>
                 Webcam
 
-                </WorkGridItem>
+                </UseGridItem>
                 
             </Section>
 
-          
+        
 
             </SimpleGrid>
     </Container>
