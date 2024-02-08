@@ -1,9 +1,9 @@
 import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
-import { WorkGridItem } from '../components/grid-item'
+import { ExperienceGridItem } from '../components/grid-item'
 import Section from '../components/section'
 import Layout from '../components/layouts/article'
 import thumbBluePlanet from '../public/images/experience/bluplanet.jpg'
-import thumbVenti from '../public/images/experience/20eventi.jpg'
+import thumbVenti from '../public/images/experience/20eventi2.jpg'
 import thumbSolar from '../public/images/experience/solarCash.jpg'
 import thumbMercadona from '../public/images/experience/mercadona.png'
 
@@ -18,20 +18,20 @@ const Experience = () => (
 
         <SimpleGrid columns={[1, 1, 1]} gap={6}>
         <Section>
-                <WorkGridItem id="mercadona" title="Mercadona" thumbnail={thumbMercadona}>
+                <ExperienceGridItem id="mercadona" title="Mercadona" thumbnail={thumbMercadona}>
                 Development and maintenance of analytical
                 accounting applications and cost allocation.
 
-                </WorkGridItem>
+                </ExperienceGridItem>
             </Section>
             <Section>
-                <WorkGridItem id="bluPlanet" title="BluPlanet" thumbnail={thumbBluePlanet}>
+                <ExperienceGridItem id="bluPlanet" title="BluPlanet" thumbnail={thumbBluePlanet}>
                 Internship for the middle-grade level in Hospitalet
                 (Barcelona). Computer technician.
 
-                </WorkGridItem>
+                </ExperienceGridItem>
             </Section>
-            <Divider my={6} />    
+            <Divider my={6} />
         <Heading as="h3" fontSize={20} mb={2}>
         Erasmus+ Perugia (Italia)
         </Heading>
@@ -39,18 +39,18 @@ const Experience = () => (
 multimedia content management, and graphic
 design.</p>
             <Section>
-                <WorkGridItem id="solarCash" title="SolarCash" thumbnail={thumbSolar}>
+                <ExperienceGridItem id="solarCash" title="SolarCash" thumbnail={thumbSolar}>
                     
 
-                </WorkGridItem>
+                </ExperienceGridItem>
             </Section>
             <Section>
-                <WorkGridItem id="20Eventi" title="20Eventi" thumbnail={thumbVenti}>
+                <ExperienceGridItem id="20eventi" title="20Evènti" thumbnail={thumbVenti}>
                     
 
-                </WorkGridItem>
+                </ExperienceGridItem>
             </Section>
-           
+        
             
         
         </SimpleGrid>

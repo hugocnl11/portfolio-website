@@ -32,14 +32,14 @@ const Uses = () => (
             </Section>
             <Section>
                 <UseGridItem id="viper" title="Razer Viper" thumbnail={thumbViper}>
-                Webcam
+                Mouse
 
                 </UseGridItem>
                 
             </Section>
             <Section>
                 <UseGridItem id="blackshark" title="Razer Blackshark V2" thumbnail={thumbBlackshark}>
-                Webcam
+                Headset
 
                 </UseGridItem>
                 
