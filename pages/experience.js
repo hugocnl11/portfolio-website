@@ -3,7 +3,7 @@ import { ExperienceGridItem } from '../components/grid-item'
 import Section from '../components/section'
 import Layout from '../components/layouts/article'
 import thumbBluePlanet from '../public/images/experience/bluplanet.jpg'
-import thumbVenti from '../public/images/experience/20eventi2.jpg'
+import thumbVenti from '../public/images/experience/20eventi.jpg'
 import thumbSolar from '../public/images/experience/solarCash.jpg'
 import thumbMercadona from '../public/images/experience/mercadona.png'
 
