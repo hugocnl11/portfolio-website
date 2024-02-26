@@ -180,7 +180,7 @@ const Page = () => {
                         maxWidth="100px"
                         display="inline-block"
                         borderRadius="20"
-                        src="/images/index/jwt.png"
+                        src="/images/index/JWT.png"
                         alt="Profile Image">
                         </Image>
 
@@ -209,13 +209,13 @@ const Page = () => {
                         </Image>
                         <Image
                         borderColor="whiteAlpha.800"
-                        padding={2}
+                        padding={1}
                         borderWidth={0}
                         borderStyle="solid"
                         maxWidth="100px"
                         display="inline-block"
                         borderRadius="20"
-                        src="/images/index/git.png"
+                        src="/images/index/Git.png"
                         alt="Profile Image">
                         </Image>
                 </Box>
