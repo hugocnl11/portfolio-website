@@ -9,7 +9,7 @@ import {
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import P from '../../components/paragraph'
-import { Meta, Red, Yellow, Blue,  Title, TitleSimple, WorkImage, WorkImageRedux } from '../../components/work'
+import { Blue, Meta, Red, TextFontChanged, Title, TitleSimple, WorkImage, WorkImageRedux, Yellow } from '../../components/work'
 const Work = () => (
     <Layout title="RESTful API">
         <Container>
@@ -55,22 +55,31 @@ const Work = () => (
             
             <List ml={4} my={4}>
                 <Meta >GET</Meta>
+                
             </List>
-                <WorkImage src="/images/myWorks/backEnd/get.png" alt="GET"/>
+            
+            <TextFontChanged>http://localhost:8080/api/v1/products/getProducts <Meta >200 OK</Meta></TextFontChanged>
+            
+                <WorkImage src="/images/myWorks/backEnd/get-result.png" alt="GET"/>
             <List ml={4} my={4}>
                 <Yellow>POST</Yellow>
             </List>
-                <WorkImage src="/images/myWorks/backEnd/post.png" alt="POST" />
+            <TextFontChanged>http://localhost:8080/api/v1/products <Meta>200 OK</Meta></TextFontChanged>
+                <WorkImage src="/images/myWorks/backEnd/post-result.png" alt="POST" />
             <List ml={4} my={4}>
                 <Blue>PUT</Blue>
             </List>
+                <TextFontChanged>http://localhost:8080/api/v1/products <Meta>200 OK</Meta></TextFontChanged>
 
-                <WorkImage src="/images/myWorks/backEnd/put.png" alt="PUT" />
+                <WorkImage src="/images/myWorks/backEnd/put-result.png" alt="PUT" />
                 
             <List ml={4} my={4}>
                 <Red>DELETE</Red>
             </List>
-                <WorkImage src="/images/myWorks/backEnd/delete.png" alt="DELETE" />
+                <TextFontChanged>http://localhost:8080/api/v1/products/1 <Meta>202 Accepted</Meta></TextFontChanged>
+
+
+                <WorkImage src="/images/myWorks/backEnd/delete-result.png" alt="DELETE" />
                 
             
         
