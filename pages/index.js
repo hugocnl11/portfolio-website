@@ -144,7 +144,7 @@ const Page = () => {
                         maxWidth="100px"
                         display="inline-block"
                         borderRadius="20"
-                        src="/images/index/mysql(1).png"
+                        src="/images/index/mysql.png"
                         alt="Profile Image">
                         </Image>
                         
@@ -180,7 +180,7 @@ const Page = () => {
                         maxWidth="100px"
                         display="inline-block"
                         borderRadius="20"
-                        src="/images/index/JWT.png"
+                        src="/images/index/jwt.png"
                         alt="Profile Image">
                         </Image>
 
