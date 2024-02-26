@@ -6,6 +6,14 @@ import thumbKiyo from '../public/images/uses/kiyo.jpg'
 import thumbHuntsman from '../public/images/uses/huntsman.png'
 import thumbViper from '../public/images/uses/viper.jpg'
 import thumbBlackshark from '../public/images/uses/blackshark.jpg'
+import thumbDesktop from '../public/images/uses/desktop.png'
+import thumbGigantus from '../public/images/uses/gigantus.png'
+import thumbPc from '../public/images/uses/pc.png'
+import thumbChair from '../public/images/uses/secret.png'
+import thumbBehringer from '../public/images/uses/uphoria.jpg'
+import thumbMicro from '../public/images/uses/at2020.png'
+import thumbMonitors from '../public/images/uses/monitors.png'
+
 
 const Uses = () => (
 <Layout title = "Uses">
@@ -43,6 +51,49 @@ const Uses = () => (
 
                 </UseGridItem>
                 
+            </Section>
+            <Section>
+                <UseGridItem id="pc" title="PC" thumbnail={thumbPc}>
+                
+
+                </UseGridItem>
+                
+            </Section>
+            <Section>
+                <UseGridItem id="titanEvo" title="Titan Evo " thumbnail={thumbChair}>
+                Chair
+
+                </UseGridItem>
+
+            </Section>
+            <Section>
+                <UseGridItem id="monitor" title="MSI Optix G27C4" thumbnail={thumbMonitors}>
+                Monitors
+
+                </UseGridItem>
+
+            </Section>
+            <Section>
+                <UseGridItem id="gigantus" title="Razer Gigantus 3XL" thumbnail={thumbGigantus}>
+                Mouse Pad
+
+                </UseGridItem>
+
+            </Section>
+            
+            <Section>
+                <UseGridItem id="soundCard" title="Behringer UM2 U-PHORIA" thumbnail={thumbBehringer}>
+                Sound Card
+
+                </UseGridItem>
+
+            </Section>
+            <Section>
+                <UseGridItem id="microphone" title="Audio-Technica at2020" thumbnail={thumbMicro}>
+                Microphone
+
+                </UseGridItem>
+
             </Section>
 
         
