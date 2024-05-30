@@ -7,7 +7,7 @@ import thumbDownToHell from '../public/images/myWorks/PortadaDTH.png'
 import thumbInstalferWeb from '../public/images/myWorks/instalfer_eyecatch1.png'
 import thumbMyWardrobe from '../public/images/myWorks/myWardrobe_eyecatch4.png'
 import thumbPokemon from '../public/images/myWorks/pokemon_eyecatch.png'
-//import thumbChargePot from '../public/images/myWorks/ChargePot0.jpg'
+import thumbChargePot from '../public/images/myWorks/ChargePot0.jpg'
 //import thumbDefault from '../public/images/myWorks/Fondo_Negro_9.png'
 //import thumbCrud from '../public/images/myWorks/backEnd/crud.png'
 import thumbRestApi from '../public/images/myWorks/backEnd/apiRest.png'
@@ -30,15 +30,15 @@ const Works = () => (
         VideoGames
       </Heading>
 
-      <SimpleGrid delay={0.2} columns={[1, 1, 1]} gap={6}>
+      <SimpleGrid delay={0.2} columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id="downToHell" title="Down To Hell" thumbnail={thumbDownToHell}>
-          Metroidvania-style game developed in Unity as the final project for a higher-level vocational training in multimedia development.
+          Metroidvania-style 2D game built in Unity
           </WorkGridItem>
         </Section>
         <Section >
           <WorkGridItem id="pokemonJavaEdition" thumbnail={thumbPokemon} title="Pokemon Java Edition">
-            High school-level Pokémon battle project implemented in Java Swing
+            Pokémon battle project implemented in Java Swing
           </WorkGridItem>
         </Section>
         
@@ -54,20 +54,19 @@ const Works = () => (
         </Heading>
       </Section>
 
-      <SimpleGrid columns={[1, 1, 1]} gap={6}>
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
       <Section delay={0.3}>
           <WorkGridItem id="myWardrobe" title="MyWardrobe" thumbnail={thumbMyWardrobe}
           >
-            App to save the garments in your wardrobe, and the ones you desire for creating outfit combinations
+            App to save the garments in your wardrobe to create outfit combinations
           </WorkGridItem>
       </Section>
-      {/*
       <Section delay={0.3}>
           <WorkGridItem id="chargePot" thumbnail={thumbChargePot} title="ChargePot">
-            ChargePot plataform
+            Application to manage and track your expenses.
           </WorkGridItem>
-      </Section> */}
-
+      </Section> 
+</SimpleGrid>
       <Section delay={0.5}>
         <Divider my={6} />
 
@@ -81,7 +80,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
       </Section>
-      </SimpleGrid>
+      
     </Container>
   </Layout>
 )
