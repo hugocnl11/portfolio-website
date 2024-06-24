@@ -24,7 +24,7 @@ const Works = () => (
           This project will focus on developing a RESTful API using PostgreSQL as the database.
           </WorkGridItem>
         </Section>
-        
+
       </SimpleGrid>
       <Heading as="h3" delay={0.2} fontSize={20} mb={4}>
         VideoGames
@@ -43,9 +43,6 @@ const Works = () => (
         </Section>
         
       </SimpleGrid>
-
-     
-
       <Section delay={0.2}>
         <Divider my={6} />
 

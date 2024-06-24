@@ -6,7 +6,7 @@ import thumbBluePlanet from '../public/images/experience/bluplanet.jpg'
 import thumbVenti from '../public/images/experience/20eventi.jpg'
 import thumbSolar from '../public/images/experience/solarCash.jpg'
 import thumbMercadona from '../public/images/experience/mercadona.png'
-
+import thumbNavima from '../public/images/experience/Navima.png'
 const Experience = () => (
 <Layout title = "Expericence">
 
@@ -17,10 +17,16 @@ const Experience = () => (
         </Heading>
 
         <SimpleGrid columns={[1, 1, 1]} gap={6}>
-        <Section>
+            <Section>
+                <ExperienceGridItem id="navima" title="Navima" thumbnail={thumbNavima}>
+                    Development and upkeep of applications for analytical accounting and cost distribution in Django and Odoo.
+
+                </ExperienceGridItem>
+            </Section>
+            <Section>
                 <ExperienceGridItem id="mercadona" title="Mercadona" thumbnail={thumbMercadona}>
-                Development and maintenance of analytical
-                accounting applications and cost allocation.
+                    Development and maintenance of analytical
+                    accounting applications and cost allocation.
 
                 </ExperienceGridItem>
             </Section>
@@ -32,6 +38,9 @@ const Experience = () => (
                 </ExperienceGridItem>
             </Section>
             <Divider my={6} />
+
+        </SimpleGrid>
+        <SimpleGrid columns={[1, 1, 1]} gap={6}>
         <Heading as="h3" fontSize={20} mb={2}>
         Erasmus+ Perugia (Italia)
         </Heading>
@@ -50,10 +59,10 @@ design.</p>
 
                 </ExperienceGridItem>
             </Section>
-        
-            
-        
-        </SimpleGrid>
+
+
+    </SimpleGrid>
+
         
     </Container>
     </Layout>
