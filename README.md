@@ -1,7 +1,15 @@
 <h1 align="center">Hi 👋, I'm Hugo Gómez López</h1>
-<h3 align="center">A passionate frontend developer from Valencia, Spain</h3>
+<h3 align="center">A passionate developer from Valencia, Spain</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=hugocnl11&label=Profile%20views&color=0e75b6&style=flat" alt="hugocnl11" /> </p>
+
+- 🔭 I’m currently working on **Django and Odoo Projects**
+
+- 🌱 I’m currently learning **Odoo**
+
+- 👯 I’m looking to collaborate on **Unity Projects**
+
+- 📫 How to reach me **hugocnl11@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
@@ -14,5 +22,3 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=hugocnl11&show_icons=true&locale=en&layout=compact" alt="hugocnl11" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=hugocnl11&show_icons=true&locale=en" alt="hugocnl11" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=hugocnl11&" alt="hugocnl11" /></p>
