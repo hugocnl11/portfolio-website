@@ -42,7 +42,7 @@ const Page = () => {
                     Work
                 </Heading>
                 <Paragraph>
-                    My name is Hugo, im 21  and I am a junior backend developer based in Valencia, Spain.
+                    My name is Hugo, im 21  and i am a software developer based in Valencia, Spain.
                     I am passionate about creating web, desktop applications, and video games.
                     My career path has led me to take on various roles, including backend developer, designer, and multimedia manager in different companies.
                     With a diverse set of skills, I am dedicated to perfecting my talents and contributing to innovative projects in the dynamic field of software development.
