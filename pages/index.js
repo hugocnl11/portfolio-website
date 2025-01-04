@@ -1,9 +1,10 @@
-import { ChevronRightIcon } from '@chakra-ui/icons'
-import { Box, Button, Container, Heading, Image, Link } from '@chakra-ui/react'
-import NextLink from 'next/link'
-import { BioSection, BioYear } from '../components/bio'
-import Paragraph from '../components/paragraph'
-import Section from '../components/section'
+import { ChevronRightIcon } from '@chakra-ui/icons';
+import { Box, Button, Container, Heading, Image, Link, Text } from '@chakra-ui/react';
+import { FaLinkedin } from 'react-icons/fa';
+import NextLink from 'next/link';
+import { BioSection, BioYear } from '../components/bio';
+import Paragraph from '../components/paragraph';
+import Section from '../components/section';
 
 const Page = () => {
     return (
@@ -11,31 +12,41 @@ const Page = () => {
             <Box borderRadius="lg" bg="grey" p={3} mb={6} align="center">
                 Hello, I&apos;m a software developer based in Spain!
             </Box>
-            <Box display={{ md: 'flex' }}>
-                <Box flexGrow={1}>
+            <Box display="flex" flexDirection="column" alignItems="center">
+                <Box textAlign="center" mb={4}>
                     <Heading as="h3" variant="page-tittle">
                         Hugo Gómez López
                     </Heading>
                     <p>Software Craftsman (Student / Developer / Designer)</p>
                 </Box>
-                <Box
-                    flexShrink={0}
-                    mt={{ base: 4, md: 0 }}
-                    ml={{ md: 6 }}
-                    align="center"
-                >
+                <Box>
                     <Image
                         borderColor="whiteAlpha.800"
                         borderWidth={2}
                         borderStyle="solid"
-                        maxWidth="100px"
+                        maxWidth="200px"
                         display="inline-block"
                         borderRadius="full"
-                        src="/images/hugo.jpg"
-                        alt="Profile Image">
-
-                    </Image>
+                        src="/images/hugo3.jpg"
+                        alt="Profile Image"
+                        objectFit="cover"
+                        objectPosition="top"
+                        height="180px"
+                        width="180px"
+                    />
                 </Box>
+                <Link 
+                    href="https://www.linkedin.com/in/hugo-g%C3%B3mez-l%C3%B3pez-71445b1b1/" 
+                    isExternal 
+                    display="flex" 
+                    alignItems="center" 
+                    mb={4}
+                    color="blue.500" 
+                    _hover={{ textDecoration: 'underline', color: 'blue.600' }}
+                >
+                    <FaLinkedin style={{ marginRight: '8px' }} />
+                    <Text>LinkedIn</Text>
+                </Link>      
             </Box>
             <Section delay={0.4}>
                 <Heading as="h3" variant="section-title">
