@@ -14,6 +14,9 @@ const Use = () => (
         <Title>
         Razer Gigantus 3XL
         </Title>
+        <P>
+        Redactar Info
+        </P>
         <List ml={4} my={4}>
         <ListItem>
             <Meta>Website</Meta>

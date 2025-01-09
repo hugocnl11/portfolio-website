@@ -34,7 +34,7 @@ const Use = () => (
         </ListItem>
         <ListItem>
             <Meta>Screen size</Meta>
-            <span>27"</span>
+            <span>27 inches</span>
         </ListItem>
         <ListItem>
             <Meta>Refresh rate</Meta>
