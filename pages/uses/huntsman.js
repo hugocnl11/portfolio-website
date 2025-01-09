@@ -42,7 +42,7 @@ const Use = () => (
         </ListItem>
         <ListItem>
             <Meta>Personal puntuation</Meta>
-            <span>9/10</span>
+            <span>8/10</span>
         </ListItem>
         </List>
         <UseImage src="/images/uses/huntsman-v2.jpg" alt="KIYO" />

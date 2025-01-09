@@ -6,13 +6,13 @@ import thumbKiyo from '../public/images/uses/kiyo.jpg'
 import thumbHuntsman from '../public/images/uses/huntsman.png'
 import thumbViper from '../public/images/uses/viper.jpg'
 import thumbBlackshark from '../public/images/uses/blackshark.jpg'
-import thumbGigantus from '../public/images/uses/gigantus.png'
+import thumbGigantus from '../public/images/uses/gigantus2.jpg'
 import thumbPc from '../public/images/uses/pc.png'
 import thumbChair from '../public/images/uses/secret.png'
 import thumbBehringer from '../public/images/uses/uphoria.jpg'
 import thumbMicro from '../public/images/uses/at2020.png'
 import thumbMonitors from '../public/images/uses/monitors.png'
-
+import thumbLightBar from '../public/images/uses/mi-light.jpg'
 
 const Uses = () => (
 <Layout title = "Uses">
@@ -52,28 +52,28 @@ const Uses = () => (
                 
             </Section>
             <Section>
-                <UseGridItem id="pc" title="PC" thumbnail={thumbPc}>
-                
+                <UseGridItem id="pc" title="PC Build" thumbnail={thumbPc}>
+                Assembled in 2019
 
                 </UseGridItem>
                 
             </Section>
             <Section>
-                <UseGridItem id="titanEvo" title="Titan Evo " thumbnail={thumbChair}>
+                <UseGridItem id="titan-evo" title="Titan Evo " thumbnail={thumbChair}>
                 Chair
 
                 </UseGridItem>
 
             </Section>
             <Section>
-                <UseGridItem id="monitor" title="MSI Optix G27C4" thumbnail={thumbMonitors}>
+                <UseGridItem id="msi-monitor" title="MSI Optix G27C4" thumbnail={thumbMonitors}>
                 Monitors
 
                 </UseGridItem>
 
             </Section>
             <Section>
-                <UseGridItem id="gigantus" title="Razer Gigantus 3XL" thumbnail={thumbGigantus}>
+                <UseGridItem id="razer-gigantus" title="Razer Gigantus 3XL" thumbnail={thumbGigantus}>
                 Mouse Pad
 
                 </UseGridItem>
@@ -81,21 +81,27 @@ const Uses = () => (
             </Section>
             
             <Section>
-                <UseGridItem id="soundCard" title="Behringer UM2 U-PHORIA" thumbnail={thumbBehringer}>
+                <UseGridItem id="behringer" title="Behringer UM2 U-PHORIA" thumbnail={thumbBehringer}>
                 Sound Card
 
                 </UseGridItem>
 
             </Section>
             <Section>
-                <UseGridItem id="microphone" title="Audio-Technica at2020" thumbnail={thumbMicro}>
+                <UseGridItem id="audio-technica" title="Audio-Technica at2020" thumbnail={thumbMicro}>
                 Microphone
 
                 </UseGridItem>
 
             </Section>
 
-        
+            <Section>
+                <UseGridItem id="mi-lightbar" title="Mi Computer" thumbnail={thumbLightBar}>
+                Monitor Light Bar
+
+                </UseGridItem>
+
+            </Section>
 
             </SimpleGrid>
     </Container>
