@@ -5,7 +5,7 @@
 
 - 🔭 I’m currently working on **Django and Odoo Projects**
 
-- 🌱 I’m currently learning **Odoo**
+- 🌱 I’m currently learning **Power BI**
 
 - 👯 I’m looking to collaborate on **Unity Projects**
 
